@@ -20,13 +20,17 @@ Rebalance RVGL Pickups and play online with others
 * Fake pickup is more common in the top spots.
 * Global Weapon (Star) is slightly more common than before (3% in last, instead of 1%).
 
+#### Notes:
+* The game will replace the text "rvgl" in the main menu with the text "vpm".
+* Your your name will always have the prefix "vpm/" and it's unremovable.
+* You can't use name wheel ingame codes, but dev mode works as intended.
 
 ## Installation instructions:
 
 ### Normal install:
 
 * The mod is based on the 32-bit version of the game. Since most systems now are 64-bit, I will include the 32-bit dlls and exe, but the only file required to run is VasPicksMod.exe.
-* Installation is easy: extract the whole package on top of your current installation, or othewise make sure you have all 32-bit dlls and rvgl.exe in the same folder as VasPicksMod.exe
+* Installation is easy: extract the contents of the folder rvglmod on top of your current installation, or othewise make sure you have all 32-bit dlls and rvgl.exe in the same folder as VasPicksMod.exe
 * To run the game with the mod: simply run VasPicksMod.exe
 
 ### RVGL Launcher install:
@@ -37,6 +41,20 @@ Rebalance RVGL Pickups and play online with others
 
 ## TLDR:
 
-* If you are NOT using the launcher: extract the zip in the main folder and run "VasPicksMod.exe"
-* If you are using the launcher: extract the zip in %localappdata%\rvmm\packs\rvglmod\ and run "VasPicksMod.exe - Shortcut.lnk"
+* If you are NOT using the launcher: extract the content of the **rvglmod folder** in the main rvgl folder and run "VasPicksMod.exe"
+* If you are using the launcher: extract the content of the **zip** in %localappdata%\rvmm\packs\ and run "VasPicksMod.exe - Shortcut.lnk"
 
+## FAQ:
+
+Q: Does this mod alter the game files in any way?  
+A: No it doesn't.
+
+Q: Does this mod require any dll or libraries?  
+A: No, it only requires the files that rvgl 32-bit needs to run.
+
+Q: The game doesn't find the game assets/strings. How do I fix this?  
+A: If you are not using the launcher: make sure to extract the contents of the rvglmod folder (the dlls and the executables) inside the main directory of rvgl.
+If you are using the launcher: make sure to place the whole folder inside the launcher's "packs" folder, and to run the VasPicksMod shortcut instead of the VasPicksMod.exe
+
+Q: Can I alter the mod to use another pickup table?  
+A: You can't at the moment. I will consider the option for the future if it's a really wanted feature.
