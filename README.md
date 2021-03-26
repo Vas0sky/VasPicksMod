@@ -58,3 +58,7 @@ If you are using the launcher: make sure to place the whole folder inside the la
 
 Q: Can I alter the mod to use another pickup table?  
 A: You can't at the moment. I will consider the option for the future if it's a really wanted feature.
+
+Q: Is the mod compatible with an unmodded game?  
+A: Yes, you can join a race or create new games that are joinable from unmodded clients. About intentionally cheating: people using the mod will show the "vpm/" prefix, which
+is not removable and it's always written in lowercase. It's up to the host prevent these cheating scenarios (or allow them, I'm not your mom).
